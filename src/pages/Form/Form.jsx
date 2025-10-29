@@ -1,10 +1,12 @@
-import "./Form.css"
-
+import "./Form.css";
+import { Link } from "react-router-dom";
 export default function Form() {
   return (
     <div className="modal form-modal">
       <div className="modal-content">
-        <span className="close-btn close-form">❌</span>
+        <Link to={"/"}>
+          <span className="close-btn close-form">❌</span>
+        </Link>
         <h2>✍️ Správa otázek</h2>
 
         <div className="form-tabs">
@@ -59,16 +61,18 @@ export default function Form() {
 
         <div className="form-panel">
           <p>
-            Zde bude formulář pro <strong>úpravu otázek</strong> (napojíš na databázi).
+            Zde bude formulář pro <strong>úpravu otázek</strong> (napojíš na
+            databázi).
           </p>
         </div>
 
         <div className="form-panel">
           <p>
-            Zde bude formulář pro <strong>mazání otázek</strong> (napojíš na databázi).
+            Zde bude formulář pro <strong>mazání otázek</strong> (napojíš na
+            databázi).
           </p>
         </div>
       </div>
     </div>
-  )
+  );
 }

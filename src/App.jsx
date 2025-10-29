@@ -1,10 +1,10 @@
-import Home from "./pages/Home/Home"
+import AppRoutes from "./pages/AppRoutes"
 import "./App.css"
 
 export default function App() {
   return (
     <>
-    <Home/>
+      <AppRoutes/>
     </>
   )
 }

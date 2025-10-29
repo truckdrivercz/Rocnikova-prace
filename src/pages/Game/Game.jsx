@@ -2,6 +2,7 @@ import "./Game.css"
 
 export default function Game() {
   return (
+    <>
     <div className="container">
       <div className="game-area">
         <div className="categories">
@@ -48,5 +49,6 @@ export default function Game() {
         </ul>
       </div>
     </div>
+    </>
   )
 }
