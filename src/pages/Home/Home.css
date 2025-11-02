@@ -22,3 +22,10 @@ header{
     font-weight: bold;
     cursor: pointer;
 }
+
+.game-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}

@@ -2,31 +2,23 @@ import "./Game.css"
 
 export default function Game() {
   return (
-    <>
     <div className="container">
-      <div className="game-area">
-        <div className="categories">
-          <button id="sites">Počítačové sítě</button>
-          <button id="programming">Programování</button>
-          <button id="webDevelop">Vývoj webových stránek</button>
+
+      <div className="left">
+        <div className="question-box">Tady budou otázky</div>
+
+        <div className="answers">
+          <button id="a">A: Možnost A</button>
+          <button id="b">B: Možnost B</button>
+          <button id="c">C: Možnost C</button>
+          <button id="d">D: Možnost D</button>
         </div>
-      </div>
 
-      <div className="question-box">
-        Tady se objeví otázky z databáze
-      </div>
-
-      <div className="answers">
-        <button id="a">A:</button>
-        <button id="b">B:</button>
-        <button id="c">C:</button>
-        <button id="d">D:</button>
-      </div>
-
-      <div className="lifelines">
-        <button id="half">50:50</button>
-        <button id="phone">📞</button>
-        <button id="skip">Skip</button>
+        <div className="lifelines">
+          <button id="half">50:50</button>
+          <button id="phone">📞</button>
+          <button id="skip">➡️</button>
+        </div>
       </div>
 
       <div className="scoreboard">
@@ -48,7 +40,7 @@ export default function Game() {
           <li>1. 1 000 Kč</li>
         </ul>
       </div>
+
     </div>
-    </>
   )
 }

@@ -12,10 +12,15 @@ export default function Home() {
         <Link to={"/form"}>
           <button className="open-form">✍️ Správa otázek</button>
         </Link>
-        <Link to={"/game"}>
-          <button className="open-game">🎮 Zvolit kategorii</button>
-        </Link>
       </div>
+      <Link to={"/game"}>
+        <div className="game-area">
+          <div className="categories">
+            <button id="sites">Počítačové sítě</button>
+            <button id="programming">Programování</button>
+            <button id="webDevelop">Vývoj webových stránek</button>
+          </div>
+        </div></Link>
     </>
   );
 }
