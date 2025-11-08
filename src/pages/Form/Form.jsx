@@ -4,7 +4,7 @@ export default function Form() {
   return (
     <div className="modal form-modal">
       <div className="modal-content">
-        <Link to={"/"}>
+        <Link to={"/menu"}>
           <span className="close-btn close-form">❌</span>
         </Link>
         <h2>✍️ Správa otázek</h2>

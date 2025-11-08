@@ -5,7 +5,7 @@ export default function Rules() {
     <>
       <div className="model-rules-model">
         <div className="model-content">
-          <Link to={"/"}>
+          <Link to={"/menu"}>
             <span className="close-btn close-rules">❌</span>
           </Link>
           <h2>📜 Pravidla hry</h2>

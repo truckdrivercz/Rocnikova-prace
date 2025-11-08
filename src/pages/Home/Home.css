@@ -1,19 +1,4 @@
-header{
-    padding: 20px;
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: gold;
-    text-shadow: 0 0 15px blue, 0 0 30px gold;
-}
-
-.top-buttons{
-    margin: 20px;
-    font-size: 2.5rem;
-    display: flex;
-    gap: 20px;
-}
-
-.top-buttons button{
+button{
     padding: 10px 20px;
     background: darkblue;
     border: 2px solid gold;
@@ -21,11 +6,9 @@ header{
     color: white;
     font-weight: bold;
     cursor: pointer;
+    display: block;
 }
 
-.game-area {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 20px;
+img{
+    width: 100px;
 }

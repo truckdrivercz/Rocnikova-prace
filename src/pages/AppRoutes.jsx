@@ -3,6 +3,7 @@ import Home from "./Home/Home";
 import Rules from "./Rules/Rules";
 import Game from "./Game/Game";
 import Form from "./Form/Form";
+import Menu from "./Menu/Menu";
 
 export default function AppRoutes() {
     return(
@@ -12,6 +13,7 @@ export default function AppRoutes() {
                 <Route path="rules" element={<Rules/>}/>
                 <Route path="game" element={<Game/>}/>
                 <Route path="form" element={<Form/>}/>
+                <Route path="menu" element={<Menu/>}/>
             </Routes>
         </BrowserRouter>
     )
