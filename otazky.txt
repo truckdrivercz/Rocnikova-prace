@@ -1,0 +1,48 @@
+Počítačové sítě
+1. Co znamená zkratka LAN? A: Large Area Network, B: Local Area Network ✔️, C: Long Access Node, D: Linked Access Network
+2. Jaký kabel se nejčastěji používá v Ethernet sítích? A: USB, B: Koaxiální, C: Twisted Pair ✔️, D: HDMI
+3. Co je hlavní úlohou routeru? A: Přepínat rámce, B: Směrovat pakety ✔️, C: Tisknout data, D: Monitorovat server
+4. K čemu slouží protokol DNS? A: Šifrování dat, B: Překlad názvů na IP adresy ✔️, C: Měření rychlosti, D: Zálohování
+5. Co určuje MAC adresa? A: Přidělenou IP adresu, B: Výrobce a síťovou kartu ✔️, C: Jméno počítače, D: Typ připojení
+6. K čemu slouží firewall? A: Zvětšení dosahu Wi-Fi, B: Ochrana sítě před nebezpečným provozem ✔️, C: Zálohování dat, D: Rychlejší internet
+7. Jaký protokol se používá pro přenos webových stránek? A: FTP, B: SMTP, C: HTTP(S) ✔️, D: SNMP
+8. Jaký druh zařízení vytváří kolizní domény? A: Switch, B: Router, C: Hub ✔️, D: Access point
+9. Co je SSID u Wi-Fi? A: Heslo, B: Název sítě ✔️, C: Typ šifrování, D: MAC routeru
+10. Jaký protokol slouží k odesílání e-mailů? A: POP3, B: SNMP, C: SMTP ✔️, D: ICMP
+11. Co označuje pojem „latence“? A: Šířku pásma, B: Zpoždění přenosu ✔️, C: Počet uživatelů v síti, D: Poškození paketů
+12. Které zařízení pracuje na druhé vrstvě OSI modelu? A: Router, B: Switch ✔️, C: Modem, D: Server
+13. K čemu slouží ICMP? A: Přímý přenos souborů, B: Diagnostika sítě ✔️, C: Šifrování, D: Správa hesel
+14. Co znamená pojem „packet loss“? A: Ztráta kvality obrazu, B: Ztracené pakety během přenosu ✔️, C: Neaktuální IP adresa, D: Nestabilní DNS
+15. Jaký problém řeší NAT? A: Zpoždění, B: Nedostatek veřejných IP ✔️, C: Rychlost Wi-Fi, D: Viry v síti
+Programování
+1. Co znamená OOP? A: Object-Oriented Programming ✔️, B: Open Operator Process, C: One Output Program, D: Overload Optimized Platform
+2. Jak se v Pythonu označuje blok kódu? A: Závorkami, B: Odsazením ✔️, C: Středníky, D: Klíčovými slovy begin/end
+3. Co vrací funkce len() v Pythonu? A: Typ proměnné, B: Délku objektu ✔️, C: Hodnotu proměnné, D: Maximální číslo
+4. Co dělá System.out.println() v Javě? A: Vypíše text do konzole ✔️, B: Zastaví program, C: Spustí metodu, D: Vrátí číslo
+5. Co znamená public v Javě/C#? A: Proměnná je konstantní, B: Není použitelná, C: Přístup odkudkoli ✔️, D: Uzamčená v třídě
+6. Který z těchto jazyků umožňuje přetížení funkcí? A: Python, B: C, C: Java ✔️, D: HTML
+7. Co znamená pojem kompilace? A: Spuštění programu, B: Překlad do strojového kódu ✔️, C: Ukládání dat, D: Debugování
+8. Co je pointer v jazyce C? A: Proměnná ukazující na adresu v paměti ✔️, B: Proměnná typu string, C: Funkce, D: Výjimka
+9. Co je garbage collector (Java/C#)? A: Čistič souborů, B: Automatické uvolnění paměti ✔️, C: Optimalizátor CPU, D: Měřič výkonu
+10. Který jazyk nepodporuje objekty přirozeně? A: C ✔️, B: Java, C: C#, D: Python
+11. Co způsobí nekonečná rekurze? A: Čekání programu, B: Kolizi, C: Přetečení zásobníku ✔️, D: Restart kódu
+12. Co znamená immutable? A: Nelze změnit hodnotu ✔️, B: Globální proměnná, C: Numeric, D: Překompilovaný objekt
+13. Co znamená polymorfismus? A: Více tříd ve složce, B: Metody mohou mít různé chování ✔️, C: Bug, D: Komentář měnící tvar
+14. Co je asynchronní programování? A: Kód čeká na všechno, B: Kód neběží blokovaně ✔️, C: Offline program, D: Serverový kód
+15. Co dělá virtual v C#? A: Zamezí dědění, B: Umožní přepsání metody ✔️, C: Skryje metodu, D: Vytvoří proměnnou
+Vývoj webových aplikací
+1. K čemu slouží HTML? A: Logika aplikace, B: Struktura webu ✔️, C: Ochrana dat, D: Správa databáze
+2. Co dělá CSS? A: Šifruje web, B: Ovládá vzhled ✔️, C: Ovládá server, D: Překládá kód
+3. Jaká značka vkládá odkaz? A: <div>, B: <link>, C: <a> ✔️, D: <href>
+4. JavaScript běží: A: Jen na serveru, B: Jen v prohlížeči, C: V prohlížeči i na serveru ✔️, D: V databázi
+5. Co znamená responsive design? A: Lepší animace, B: Přizpůsobení pro mobily ✔️, C: Široká stránka, D: Rychlejší načítání
+6. Co je DOM? A: Obrazovka serveru, B: Model HTML dokumentu ✔️, C: Knihovna JS, D: Databázový modul
+7. Co znamená AJAX? A: Herní engine, B: Dynamická komunikace se serverem ✔️, C: Typ API, D: Databázové příkazy
+8. Co znamená HTTP kód 404? A: Server OK, B: Přesměrování, C: Stránka nenalezena ✔️, D: Server se restartuje
+9. Co je API? A: Grafický editor, B: Návrh UI, C: Rozhraní pro komunikaci ✔️, D: Knihovna CSS
+10. Co je Node.js? A: Databáze, B: Backend prostředí pro JavaScript ✔️, C: Editor kódu, D: Zkratka pro API
+11. Co je Webpack? A: Server, B: Nástroj pro bundlování frontendu ✔️, C: Databáze, D: Proxy
+12. Jaký typ databáze je MongoDB? A: Relační, B: Souborová, C: NoSQL ✔️, D: Tabulková
+13. Co je CSR? A: Server generuje HTML, B: Klient generuje HTML ✔️, C: Šifrování, D: Oprava chyb
+14. Co je WebSocket? A: Jednorázová komunikace, B: Obousměrná komunikace ✔️, C: E-mail protokol, D: Restart serveru
+15. Co je CORS? A: Ochrana proti SQLi, B: Omezení komunikace mezi doménami ✔️, C: Cookies, D: Typ firewallu
