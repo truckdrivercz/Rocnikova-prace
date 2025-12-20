@@ -1,0 +1,6 @@
+npm i
+npm i react-router-dom
+cd server
+npx express-generator
+npm i cors nodemon mongoose
+npm i dotenv
