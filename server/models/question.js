@@ -1,6 +1,6 @@
-const mongose = require("mongoose");
+const mongoose = require("mongoose");
 
-const questionSchema = mongose.Schema({
+const questionSchema = mongoose.Schema({
     name: {type: String, required: true},
     answerA: {type: String, required: true},
     answerB: {type: String, required: true},
@@ -9,4 +9,4 @@ const questionSchema = mongose.Schema({
     correctAnswer: {type: String, required: true, enum: ["A", "B", "C", "D"]}
 })
 
-module.exports = mongose.model("Question", questionSchema);
+module.exports = mongoose.model("Question", questionSchema);
