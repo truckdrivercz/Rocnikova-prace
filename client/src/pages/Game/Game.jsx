@@ -5,7 +5,7 @@ export default function Game() {
     <div className="container">
 
       <div className="left">
-        <div className="question-box">Tady budou otázky</div>
+        <div className="question-box"></div>
 
         <div className="answers">
           <button id="a">A: Možnost A</button>
