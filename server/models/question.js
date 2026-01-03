@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 
 const questionSchema = mongoose.Schema({
+    category: {type: String, require: true},
     name: {type: String, required: true},
     answerA: {type: String, required: true},
     answerB: {type: String, required: true},

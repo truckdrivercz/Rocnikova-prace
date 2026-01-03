@@ -43,6 +43,7 @@ exports.getQuestionById = async (req, res) => {
 exports.createQuestion = async (req, res) => {
     try {
         const data = new Question({
+            category: req.body.category,
             name: req.body.name,
             answerA: req.body.answerA,
             answerB: req.body.answerB,
@@ -68,6 +69,7 @@ exports.createQuestion = async (req, res) => {
 exports.updateQuestion = async (req, res) => {
     try {
         const data = {
+            category: req.body.category,
             name: req.body.name,
             answerA: req.body.answerA,
             answerB: req.body.answerB,
