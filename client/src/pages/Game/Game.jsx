@@ -8,10 +8,10 @@ export default function Game() {
         <div className="question-box"></div>
 
         <div className="answers">
-          <button id="a">A: Možnost A</button>
-          <button id="b">B: Možnost B</button>
-          <button id="c">C: Možnost C</button>
-          <button id="d">D: Možnost D</button>
+          <button id="a">A: </button>
+          <button id="b">B: </button>
+          <button id="c">C: </button>
+          <button id="d">D: </button>
         </div>
 
         <div className="lifelines">
